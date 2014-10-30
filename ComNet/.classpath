@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="melibrary.com.genuitec.eclipse.j2eedt.core.MYECLIPSE_JAVAEE_5_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/DBCP"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/jdbc"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/jstl"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/upload"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/dbcp"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/lib"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/commons-logging-api.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/commons-fileupload-1.2.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/commons-dbcp.jar"/>
+	<classpathentry kind="output" path="WebRoot/WEB-INF/classes"/>
+</classpath>

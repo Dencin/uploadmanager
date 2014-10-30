@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+	
+	<filter>
+	<filter-name>Myfilter</filter-name>
+	<filter-class>com.softeem.train.filter.Myfilter</filter-class>
+	</filter>
+	
+	<filter-mapping>
+	<filter-name>Myfilter</filter-name>
+	<url-pattern>/*</url-pattern>
+	</filter-mapping>
+	
+	
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DetailNews</servlet-name>
+    <servlet-class>com.softeem.train.action.DetailNews</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>NewsInfo</servlet-name>
+    <servlet-class>com.softeem.train.action.NewsInfo</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>NewsInfo1</servlet-name>
+    <servlet-class>com.softeem.train.action.NewsInfo1</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AdminLogin</servlet-name>
+    <servlet-class>com.softeem.train.action.AdminLogin</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddManager</servlet-name>
+    <servlet-class>com.softeem.train.action.AddManager</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>showUserList</servlet-name>
+    <servlet-class>com.softeem.train.action.showUserList</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeleteUser</servlet-name>
+    <servlet-class>com.softeem.train.action.DeleteUser</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeleteMore</servlet-name>
+    <servlet-class>com.softeem.train.action.DeleteMore</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddNews</servlet-name>
+    <servlet-class>com.softeem.train.action.AddNews</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>See</servlet-name>
+    <servlet-class>com.softeem.train.action.See</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ManageNews</servlet-name>
+    <servlet-class>com.softeem.train.action.ManageNews</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ManageNews1</servlet-name>
+    <servlet-class>com.softeem.train.action.ManageNews1</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeleteNews</servlet-name>
+    <servlet-class>com.softeem.train.action.DeleteNews</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ManageProduct</servlet-name>
+    <servlet-class>com.softeem.train.action.ManageProduct</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>MessageBoard</servlet-name>
+    <servlet-class>com.softeem.train.action.MessageBoard</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SaveMessage</servlet-name>
+    <servlet-class>com.softeem.train.action.SaveMessage</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddProduct</servlet-name>
+    <servlet-class>com.softeem.train.action.AddProduct</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Message</servlet-name>
+    <servlet-class>com.softeem.train.action.Message</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ManageProduct1</servlet-name>
+    <servlet-class>com.softeem.train.action.ManageProduct1</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpdateProduct</servlet-name>
+    <servlet-class>com.softeem.train.action.UpdateProduct</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DealUpdate</servlet-name>
+    <servlet-class>com.softeem.train.action.DealUpdate</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeleteProduct</servlet-name>
+    <servlet-class>com.softeem.train.action.DeleteProduct</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ShowProductList</servlet-name>
+    <servlet-class>com.softeem.train.action.ShowProductList</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ShowProductList1</servlet-name>
+    <servlet-class>com.softeem.train.action.ShowProductList1</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DetailProduct</servlet-name>
+    <servlet-class>com.softeem.train.action.DetailProduct</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ValiLogin</servlet-name>
+    <servlet-class>com.softeem.train.action.ValiLogin</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Register</servlet-name>
+    <servlet-class>com.softeem.train.action.Register</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>MessageBoard1</servlet-name>
+    <servlet-class>com.softeem.train.action.MessageBoard1</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>RevertMessage</servlet-name>
+    <servlet-class>com.softeem.train.action.RevertMessage</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SaveRevert</servlet-name>
+    <servlet-class>com.softeem.train.action.SaveRevert</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Register1</servlet-name>
+    <servlet-class>Register1</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ValiNameAction</servlet-name>
+    <servlet-class>com.softeem.train.action.ValiNameAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>BuyAction</servlet-name>
+    <servlet-class>com.softeem.train.action.BuyAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Buy</servlet-name>
+    <servlet-class>com.softeem.train.action.Buy</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>showBuyproduct</servlet-name>
+    <servlet-class>com.softeem.train.action.showBuyproduct</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>VIPLogin</servlet-name>
+    <servlet-class>com.softeem.train.action.VIPLogin</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>DetailNews</servlet-name>
+    <url-pattern>/DetailNews</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>NewsInfo</servlet-name>
+    <url-pattern>/NewsInfo</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>NewsInfo1</servlet-name>
+    <url-pattern>/NewsInfo1</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AdminLogin</servlet-name>
+    <url-pattern>/AdminLogin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddManager</servlet-name>
+    <url-pattern>/AddManager</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>showUserList</servlet-name>
+    <url-pattern>/showUserList</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteUser</servlet-name>
+    <url-pattern>/DeleteUser</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteMore</servlet-name>
+    <url-pattern>/DeleteMore</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddNews</servlet-name>
+    <url-pattern>/AddNews</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>See</servlet-name>
+    <url-pattern>/See</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ManageNews</servlet-name>
+    <url-pattern>/ManageNews</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ManageNews1</servlet-name>
+    <url-pattern>/ManageNews1</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteNews</servlet-name>
+    <url-pattern>/DeleteNews</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ManageProduct</servlet-name>
+    <url-pattern>/ManageProduct</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MessageBoard</servlet-name>
+    <url-pattern>/MessageBoard</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SaveMessage</servlet-name>
+    <url-pattern>/SaveMessage</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddProduct</servlet-name>
+    <url-pattern>/AddProduct</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Message</servlet-name>
+    <url-pattern>/Message</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ManageProduct1</servlet-name>
+    <url-pattern>/ManageProduct1</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateProduct</servlet-name>
+    <url-pattern>/UpdateProduct</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DealUpdate</servlet-name>
+    <url-pattern>/DealUpdate</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteProduct</servlet-name>
+    <url-pattern>/DeleteProduct</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ShowProductList</servlet-name>
+    <url-pattern>/ShowProductList</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ShowProductList1</servlet-name>
+    <url-pattern>/ShowProductList1</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DetailProduct</servlet-name>
+    <url-pattern>/DetailProduct</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ValiLogin</servlet-name>
+    <url-pattern>/ValiLogin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Register</servlet-name>
+    <url-pattern>/Register</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MessageBoard1</servlet-name>
+    <url-pattern>/MessageBoard1</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RevertMessage</servlet-name>
+    <url-pattern>/RevertMessage</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SaveRevert</servlet-name>
+    <url-pattern>/SaveRevert</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Register1</servlet-name>
+    <url-pattern>/Register1</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ValiNameAction</servlet-name>
+    <url-pattern>/ValiNameAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BuyAction</servlet-name>
+    <url-pattern>/BuyAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Buy</servlet-name>
+    <url-pattern>/Buy</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>showBuyproduct</servlet-name>
+    <url-pattern>/showBuyproduct</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>VIPLogin</servlet-name>
+    <url-pattern>/VIPLogin</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
